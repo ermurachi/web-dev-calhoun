@@ -5,7 +5,7 @@ on: workflow_dispatch
 
 jobs:
     build:
-        runs-on: runner
+        runs-on: runs-on: self-hosted
         steps:
             - name: run a script
               run: echo "hello world"
