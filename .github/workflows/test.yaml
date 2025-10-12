@@ -12,3 +12,6 @@ jobs:
             
             - name: create file
               run: touch teeeeeeest.txt
+
+            - name: pwd
+              run: pwd
