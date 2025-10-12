@@ -9,3 +9,6 @@ jobs:
         steps:
             - name: run a script
               run: echo "hello world"
+            
+            - name: create file
+              run: touch teeeeeeest.txt
